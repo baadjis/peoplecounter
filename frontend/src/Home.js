@@ -6,9 +6,9 @@ class Home extends Component {
       <div>
         <h2 data-testid>Welcome</h2>
         <div className="container">
-        <p>go to the occupancy page to see occupancy by sensor</p>
+        <h4>go to the occupancy page to see occupancy reported by sensor</h4>
  
-        <p>go to sensor page for sensor page to see available sensors</p>
+        <h4>go to sensor page to see available sensors</h4>
         </div>
 
       </div>

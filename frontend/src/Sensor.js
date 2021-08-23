@@ -15,9 +15,11 @@ const Sensor= ()=> {
         <h2>Sensors</h2>
         
         <div className="container">
-          {sensors.map((sensor) => <div key = {sensor["room"]}>
+          {sensors.map((sensor) => <div key = {sensor["room"]} className="room-div">
             <h3>room: {sensor["room"]}</h3>
             <p>sensor: {sensor["sensor"]}</p>
+            <hr />
+            
             </div>)}
         </div>
       </div>
