@@ -1,0 +1,93 @@
+
+@import-normalize;
+
+body {
+    background-color: #FFF;
+    padding: 20px;
+    margin: 0;
+  }
+  h1, h2, p, ul, li,label {
+    font-family: sans-serif;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    background-color: #111;
+    padding: 0;
+  }
+  ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+  .content {
+    background-color: #FFF;
+  
+    
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+
+  .active {
+    background-color: #0099FF;
+  }
+
+  label{
+    margin-right: 30px;
+    font-size: 20px;
+  }
+ select{
+    width: 300px;
+    min-height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
+  #time-input{
+    width: 300px;
+    min-height: 40px;
+    text-decoration: none;
+  }
+
+  #show-button{
+    background-color: #0099FF;
+    color:white;
+    
+    min-height: 50px;
+    font-size: 20px;
+    margin-left: 230px;
+    margin-top: 30px;
+    border-radius: 5% ;
+    border: transparent;
+  }
+  .form{
+    margin-bottom: 100px;
+    align-items: center;
+  }
+  
+
+  .show-paragraph{
+    background-color: whitesmoke;
+  
+    text-align: center;
+  
+    border-radius: inherit solid;
+
+  }
+  
+  .container{
+    position:absolute;
+    top: 55%;
+    align-items: center;
+  
+  }
