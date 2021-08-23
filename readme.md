@@ -46,7 +46,7 @@ get the occupancy reported by a sensor at a given date
 
  `GET /api/occupancy/`
 
- curl -i -H 'Accept: application/json' http://localhost:5002/api/occupancy?sensor=XYZ&atInstant=2018-11-14T14:00:00Z
+ curl -i -H 'Accept: application/json' http://localhost:5002/api/occupancy?sensor=xyz&atInstant=2018-11-14T14:00:00Z
 
 
 ### /api/webhook
@@ -131,9 +131,9 @@ $ npm test
 
 ## Next todos
 
-In the future we wil add:
+In the future we will add:
 
-* a register/login sytem
+* a register/login system
 
 * a ui for sensor configuration(add and update,delete)
 
