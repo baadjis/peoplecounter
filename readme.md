@@ -88,7 +88,7 @@ $ pip install -r requirements.txt
 
 ```
 
-in a another terminal go the frontend directory 
+in a another terminal go to the frontend directory 
 install the  node modules and launch the frontend(make sure the backend server is still running)
 
 ```
