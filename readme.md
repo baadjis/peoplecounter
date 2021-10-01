@@ -22,7 +22,7 @@ The API has 4 endpoints:
 
   `POST /api/sensors/`
 
- curl &nbsp;-i  &nbsp; -H 'Accept: application/json' -d 'sensor=abc&room=1' http://localhost:5002/api/sensors
+ curl &nbsp;-i  &nbsp; -H &nbsp; 'Accept: application/json' -d 'sensor=abc&room=1' http://localhost:5002/api/sensors
 
 
  ### /api/meetings
