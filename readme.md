@@ -38,7 +38,7 @@ The API has 4 endpoints:
 
   `POST /api/meetings/`
 
- curl -i - 'Accept: application/json' -d 'ts=abc&reason=dev workshop' http://localhost:5002/api/meetings
+ curl -i -H 'Accept: application/json' -d 'ts=abc&reason=dev workshop' http://localhost:5002/api/meetings
 
 ### /api/occupancy
 
