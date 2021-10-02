@@ -16,13 +16,13 @@ The API has 4 endpoints:
 
  `GET /api/sensors/`
 
- curl &nbsp; -i &nbsp; -H &nbsp; 'Accept: application/json' http://localhost:5002/api/sensors
+ curl &nbsp; -i &nbsp; -H &nbsp; 'Accept: application/json' &nbsp; http://localhost:5002/api/sensors
 
  add a sensor to a room:
 
   `POST /api/sensors/`
 
- curl &nbsp;-i  &nbsp; -H &nbsp; 'Accept: application/json' -d 'sensor=abc&room=1' http://localhost:5002/api/sensors
+ curl &nbsp;-i  &nbsp; -H &nbsp; 'Accept: application/json' -d 'sensor=abc&room=1'&nbsp; http://localhost:5002/api/sensors
 
 
  ### /api/meetings
@@ -32,13 +32,13 @@ The API has 4 endpoints:
 
  `GET /api/meetings/`
 
- curl &nbsp;-i  &nbsp; -H &nbsp; 'Accept: application/json' http://localhost:5002/api/meetings
+ curl &nbsp;-i  &nbsp; -H &nbsp; 'Accept: application/json'&nbsp; http://localhost:5002/api/meetings
 
  add a new meeting in a room at a given date:
 
   `POST /api/meetings/`
 
- curl &nbsp; -i &nbsp; -H &nbsp; 'Accept: application/json' -d 'ts=abc&reason=dev workshop' http://localhost:5002/api/meetings
+ curl &nbsp; -i &nbsp; -H &nbsp; 'Accept: application/json' -d 'ts=abc&reason=dev workshop' &nbsp; http://localhost:5002/api/meetings
 
 ### /api/occupancy
 
@@ -46,7 +46,7 @@ get the occupancy reported by a sensor at a given date
 
  `GET /api/occupancy/`
 
- curl &nbsp; -i &nbsp; -H &nbsp; 'Accept: application/json' http://localhost:5002/api/occupancy?sensor=xyz&atInstant=2018-11-14T14:00:00Z
+ curl &nbsp; -i &nbsp; -H &nbsp; 'Accept: application/json' &nbsp; http://localhost:5002/api/occupancy?sensor=xyz&atInstant=2018-11-14T14:00:00Z
 
 
 ### /api/webhook
@@ -55,7 +55,7 @@ get all reports by sensors
 
  `GET /api/webhook/`
 
-  curl &nbsp;-i &nbsp;-H  &nbsp;'Accept: application/json' http://localhost:5002/api/webhook
+  curl &nbsp;-i &nbsp;-H  &nbsp;'Accept: application/json' &nbsp; http://localhost:5002/api/webhook
 
 
 
